@@ -21,6 +21,6 @@ body {
 /* Styles for Mobile */
 @media (max-width: 768px) {
     .content-box {
-        background-color: #fce4ec;
+        background-color: #e4f3fc;
     }
 }
