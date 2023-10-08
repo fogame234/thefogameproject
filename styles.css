@@ -1,37 +1,45 @@
-/* Mobile First Styles */
-body {
-    background-color: lightblue;
+/* Reset default margin and padding */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body and menu bar */
+body {
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
 
-.container {
-    padding: 20px;
-    text-align: center;
+.menu-bar {
+    background-color: #333333;
 }
 
-h1 {
-    color: darkblue;
+/* Style the unordered list using Flexbox */
+.menu-bar ul {
+    list-style: none;
+    display: flex;  /* Apply Flexbox */
+    justify-content: flex-end;  /* Align items to the start */
+    align-items: center;  /* Center items vertically */
 }
 
-/* Tablet Styles */
-@media (min-width: 600px) {
-    body {
-        background-color: lightgreen;
-    }
-    
-    h1 {
-        color: darkgreen;
-    }
+/* Style the list items and links */
+.menu-bar li {
+    padding: 15px;
 }
 
-/* Desktop Styles */
-@media (min-width: 900px) {
-    body {
-        background-color: lightcoral;
-    }
-    
-    h1 {
-        color: darkred;
-    }
+.menu-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;  /* Add transition effect */
+}
+
+/* Add hover effect */
+.menu-bar li:hover {
+    background-color: #444;
+}
+
+.menu-bar a:hover {
+    color: #ffcc00;  /* Change text color on hover */
 }
