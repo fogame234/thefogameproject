@@ -1,26 +1,37 @@
-/* General Styles */
+/* Mobile First Styles */
 body {
+    background-color: lightblue;
+    margin: 0;
     font-family: Arial, sans-serif;
 }
 
-.content-box {
-    margin: 20px;
+.container {
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+    text-align: center;
 }
 
-/* Styles for Tablets */
-@media (max-width: 1024px) {
-    .content-box {
-        background-color: #e0f7fa;
+h1 {
+    color: darkblue;
+}
+
+/* Tablet Styles */
+@media (min-width: 600px) {
+    body {
+        background-color: lightgreen;
+    }
+    
+    h1 {
+        color: darkgreen;
     }
 }
 
-/* Styles for Mobile */
-@media (max-width: 768px) {
-    .content-box {
-        background-color: #e4f3fc;
+/* Desktop Styles */
+@media (min-width: 900px) {
+    body {
+        background-color: lightcoral;
+    }
+    
+    h1 {
+        color: darkred;
     }
 }
