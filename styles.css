@@ -1,0 +1,26 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.content-box {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Styles for Tablets */
+@media (max-width: 1024px) {
+    .content-box {
+        background-color: #e0f7fa;
+    }
+}
+
+/* Styles for Mobile */
+@media (max-width: 768px) {
+    .content-box {
+        background-color: #fce4ec;
+    }
+}
