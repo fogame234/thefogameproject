@@ -1204,7 +1204,7 @@ input[type="tel"]:-ms-input-placeholder {
     display: none;
   }
   .panel-cover.panel-cover--collapsed .panel-cover__divider {
-    display: block; //changed
+    display: none;
     margin: 1em auto;
   }
 
@@ -1240,6 +1240,7 @@ input[type="tel"]:-ms-input-placeholder {
   }
   .cover-navigation.navigation--social {
     padding-top: 5px;
+    display: block; //changed
   }
   .cover-navigation.navigation--social .navigation li {
     display: none; //changed
