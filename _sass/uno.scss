@@ -1171,7 +1171,7 @@ input[type="tel"]:-ms-input-placeholder {
   }
 
   .panel-cover__description {
-    display: block;
+    display: none; //changed
     max-width: 600px;
     margin: 0 auto;
   }
@@ -1231,7 +1231,7 @@ input[type="tel"]:-ms-input-placeholder {
     width: 100%;
   }
   .cover-navigation .navigation {
-    display: none; //changed
+    display: block;
     width: 100%;
   }
   .cover-navigation .navigation li {
