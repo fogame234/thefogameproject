@@ -1200,15 +1200,15 @@ input[type="tel"]:-ms-input-placeholder {
   //   width: 60px;
   //   border-width: 2px;
   // }
-  // .panel-cover.panel-cover--collapsed .panel-cover__description {
-  //   display: none;
-  // }
-  // .panel-cover.panel-cover--collapsed .panel-cover__divider {
-  //   display: none;
-  //   margin: 1em auto;
-  // }
+  .panel-cover.panel-cover--collapsed .panel-cover__description {
+    display: none;
+  }
+  .panel-cover.panel-cover--collapsed .panel-cover__divider {
+    display: none;
+    margin: 1em auto;
+  }
 
-// Moves buttons from menu
+
   .navigation-wrapper {
     display: none;
     position: fixed;
