@@ -1237,10 +1237,10 @@ input[type="tel"]:-ms-input-placeholder {
   .cover-navigation .navigation li {
     width: 80%;
     margin-bottom: 0.4em;
+    display: block; //add
   }
   .cover-navigation.navigation--social {
     padding-top: 5px;
-    display: block; //changed
   }
   .cover-navigation.navigation--social .navigation li {
     display: none; //changed
