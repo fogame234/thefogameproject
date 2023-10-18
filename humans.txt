@@ -1,0 +1,16 @@
+---
+layout: null
+sitemap:
+exclude: 'yes'
+---
+
+/* TEAM */
+Developer & Designer: Trevor Davis
+Twitter: @fogame234
+Site: https://thefogameproject.dev
+
+/* SITE */
+Last update: {{ site.time | date: "%Y/%m/%d" }}
+Standards: HTML5, CSS3
+Components: Jekyll
+Software: VSCode

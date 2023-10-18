@@ -1,5 +1,87 @@
-<!DOCTYPE html>
-<html>
-<body>
-</body>
-</html>
+---
+layout: default
+robots: noindex
+---
+
+
+<!-- <ul id="projects-panel" class="timeline">
+    {% for project in site.data.projects %}
+        <li>
+            <div class="timeline-image">
+                <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
+            </div>
+            <div >
+                <div class="timeline-heading">
+
+                    <h2><a>{{ project.name }}</a></h2>
+                </div>
+                <div class="timeline-body">
+                    {{ project.desc | markdownify }}
+
+                </div>
+        </li>
+    {% endfor %}
+</ul> -->
+
+<ul id="projects-panel" class="timeline">
+        <li>
+            <div >
+                <!-- <div class="timeline-heading">
+
+                    <h2>Yo, this a test</h2>
+                </div> -->
+                <div class="timeline-body">
+                        <h3>Cyber Security Enthusiast</h3>
+                        <p>I have always been captivated by the ever-evolving world of cybersecurity. With a background in network security and a keen eye for identifying vulnerabilities, I am dedicated to ensuring the digital world remains a safer place. My journey in the realm of cybersecurity is an ongoing adventure, constantly learning and adapting to new challenges.</p>
+                    
+                        <h3>Programming Proficiency</h3>
+                        <p>Programming is not just a skill; it's a passion for me. I'm proficient in several programming languages, including Python, bash, and even the esoteric language, <a href='https://en.wikipedia.org/wiki/Brainfuck'>Brainfuck</a>. Whether it's automating tasks, building applications, or creating scripts to simplify complex processes, coding is where I find my creative outlet and problem-solving joy.</p>
+
+                        <h3>Pentesting Specialist</h3>
+                        <p>Penetration testing, or pentesting, is where I combine my cybersecurity knowledge and programming skills to simulate cyberattacks and discover vulnerabilities in systems and networks. I love the thrill of uncovering security weaknesses and helping organizations fortify their digital defenses.</p>
+                        
+                        <h3>Lego Building Aficionado</h3>
+                        <p>Building Legos is more than just a hobby; it's a form of art for me. The intricate sets and limitless possibilities provide an escape from the everyday hustle and bustle. From intricate architecture to intricate starships, I find solace in constructing these miniature worlds.</p>
+
+                </div>
+        </li>
+</ul>
+
+<ul id="now-panel" class="timeline">
+    <li>
+        <div class="timeline-body">
+            <p>Test</p>
+
+            </div>
+    </li>
+</ul>
+
+<ul id="pgp-panel" class="timeline">
+    <li>
+        <div class="timeline-body">
+            <p id="pgpkey">-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+                mDMEY/kKFhYJKwYBBAHaRw8BAQdAmkO1hmgCYTpfjildAuJDXm0gt37Fnawf+GLk
+                jOibKyy0KlRyZXZvciBEYXZpcyA8dHJldm9yQHRoZWZvZ2FtZXByb2plY3QuZGV2
+                Poh4BDAWCgAgFiEEi+tuUrSKZyMG8tQ388qORERt4OgFAmUt1HUCHSAACgkQ88qO
+                RERt4Og3WgD+PhVgtLkzuUim9Vq9+LGeFj0/F8kmnKQJmeSqvCIZX+oBAOPHb0FL
+                utnYHg0ImYmDS0HK9msfycZSauD7Ckm0XIUCiJkEExYKAEEWIQSL625StIpnIwby
+                1Dfzyo5ERG3g6AUCY/kUzwIbAwUJBaWT2AULCQgHAgIiAgYVCgkICwIEFgIDAQIe
+                BwIXgAAKCRDzyo5ERG3g6JKTAP9HpyQv2CvNl8a/vvI38jlJFDHUwLROYbFCx1FL
+                zKmvfQEAkJ/jnPyB8YVzUbDt76ZTwbeAM6g0rjOftXQYi+EedQW0KlRyZXZvciBE
+                YXZpcyA8Zm9nYW1lQHRoZWZvZ2FtZXByb2plY3QuZGV2PoiZBBMWCgBBFiEEi+tu
+                UrSKZyMG8tQ388qORERt4OgFAmUt1FMCGwMFCQWlk9gFCwkIBwICIgIGFQoJCAsC
+                BBYCAwECHgcCF4AACgkQ88qORERt4OhbCgEA6Oix0ekj7zSpUDns+fRfOwS1oj56
+                +8PRkzAA42BKNocA/0+RkAF4oQ3zSQ+4lvdmbiKL2EUqBynKXNjSWtzwm7UDuDgE
+                Y/kKFhIKKwYBBAGXVQEFAQEHQOGTrjsxpCRG5WF1ZvLENFzoLUmC7m1cLJl1UThL
+                xaInAwEIB4h+BBgWCgAmAhsMFiEEi+tuUrSKZyMG8tQ388qORERt4OgFAmP5EnUF
+                CQWlk9kACgkQ88qORERt4OhoKgD/Svg6M47gtHQl4NPMLJvxAk58aATezjGh8d7W
+                S+oYDWkA/Rbjg38SPuR/Kl90Nv7NPGcm3Tj/sR6qbxVp7CtnhooK
+                =W9nD
+                -----END PGP PUBLIC KEY BLOCK-----
+            </p>
+                <br>
+            <a id="info"  href="{{ site.baseurl }}/Trevor Davis_public.asc" title="PGP" download>Download my PGP Key</a>   
+        </div>
+    </li>
+</ul>

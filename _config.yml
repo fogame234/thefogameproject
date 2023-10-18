@@ -1,0 +1,57 @@
+# Site settings
+title: Trevor Davis
+description: | 
+  Username: Fogame | Signal: 801-709-0728 <br>
+  Email: fogame@thefogameproject.dev
+url: 'https://thefogameproject.dev'
+baseurl: ''
+font_awesome: '57918ba98d.js'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+# disable_landing_page: true
+
+author:
+  name: 'Trevor Davis'
+
+# The order of the social links is defined by their order in this list
+socials:
+  github:
+    user_id: fogame234
+  mastodon:
+    user_id: '@fogame'
+  twitter: 
+    user_id: fogame234
+  reddit:
+    user_id: fogame
+  telegram:
+    user_id: fogame234
+
+  
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'pages'
+    values:
+        layout: 'default'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png', 'docker-compose.yml', 'socials/', 'node_modules', 'vendor/bundle/', 'vendor/cache/', 'vendor/gems/', 'vendor/ruby/']

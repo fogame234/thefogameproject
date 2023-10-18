@@ -1,0 +1,13 @@
+- name: About Me
+  #link: optional
+  #img: https://rubyfi.de/images/projects/bite.png
+  desc: |
+    This is a test. <br><br>
+    This is a new paragraph in the About Me section.
+
+- name: PGP
+  #link: optional
+  #img: https://rubyfi.de/images/projects/bite.png
+  desc: |
+    This is a test. <br><br>
+    This is a new paragraph in the About Me section.
