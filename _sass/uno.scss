@@ -1209,7 +1209,7 @@ input[type="tel"]:-ms-input-placeholder {
   }
 
   .navigation-wrapper {
-    display: block; //changed
+    display: none;
     position: fixed;
     top: 42px;
     right: 0;
@@ -1242,7 +1242,7 @@ input[type="tel"]:-ms-input-placeholder {
     padding-top: 5px;
   }
   .cover-navigation.navigation--social .navigation li {
-    display: inline-block;
+    display: none; //changed
     width: 25.8%;
   }
 
