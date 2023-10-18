@@ -1204,7 +1204,7 @@ input[type="tel"]:-ms-input-placeholder {
     display: none;
   }
   .panel-cover.panel-cover--collapsed .panel-cover__divider {
-    display: none;
+    display: block; //changed
     margin: 1em auto;
   }
 
