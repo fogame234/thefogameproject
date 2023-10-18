@@ -1154,37 +1154,37 @@ input[type="tel"]:-ms-input-placeholder {
     display: block;
   }
 
-  // .panel-main {
-  //   display: table;
-  //   position: relative;
-  //   text-align: center
-  // }
-
-  // .panel-cover--collapsed {
-  //   width: 100%;
-  //   max-width: none;
-  // }
-
-  .panel-main__inner {
-    display: table-cell;
-    padding: 60px 10%;
+  .panel-main {
+    display: table;
+    position: relative;
+    text-align: center
   }
 
-  .panel-cover__description {
-    display: block;
-    max-width: 600px;
-    margin: 0 auto;
-  }
-
-  .panel-cover__divider--secondary {
-    display: none;
-  }
-
-  .panel-cover {
+  .panel-cover--collapsed {
     width: 100%;
-    height: 100%;
-    background-position: center center;
+    max-width: none;
   }
+
+  // .panel-main__inner {
+  //   display: table-cell;
+  //   padding: 60px 10%;
+  // }
+
+  // .panel-cover__description {
+  //   display: block;
+  //   max-width: 600px;
+  //   margin: 0 auto;
+  // }
+
+  // .panel-cover__divider--secondary {
+  //   display: none;
+  // }
+
+  // .panel-cover {
+  //   width: 100%;
+  //   height: 100%;
+  //   background-position: center center;
+  // }
   .panel-cover.panel-cover--collapsed {
     display: block;
     position: relative;
