@@ -1224,64 +1224,64 @@ input[type="tel"]:-ms-input-placeholder {
   //   display: block;
   // }
 
-//   .cover-navigation {
-//     display: block;
-//     position: relative;
-//     float: left;
-//     clear: left;
-//     width: 100%;
-//   }
-//   .cover-navigation .navigation {
-//     display: block;
-//     width: 100%;
-//   }
-//   .cover-navigation .navigation li {
-//     width: 80%;
-//     margin-bottom: 0.4em;
-//   }
-//   .cover-navigation.navigation--social {
-//     padding-top: 5px;
-//   }
-//   .cover-navigation.navigation--social .navigation li {
-//     display: none; //changed
-//     width: 25.8%;
-//   }
+  .cover-navigation {
+    display: block;
+    position: relative;
+    float: left;
+    clear: left;
+    width: 100%;
+  }
+  .cover-navigation .navigation {
+    display: block;
+    width: 100%;
+  }
+  .cover-navigation .navigation li {
+    width: 80%;
+    margin-bottom: 0.4em;
+  }
+  .cover-navigation.navigation--social {
+    padding-top: 5px;
+  }
+  .cover-navigation.navigation--social .navigation li {
+    display: none; //changed
+    width: 25.8%;
+  }
 
-//   .content-wrapper {
-//     width: 80%;
-//     max-width: none;
-//     margin: 0 auto;
-//   }
+  .content-wrapper {
+    width: 80%;
+    max-width: none;
+    margin: 0 auto;
+  }
 
-//   .content-wrapper__inner {
-//     margin-right: 0;
-//     margin-left: 0;
-//   }
+  .content-wrapper__inner {
+    margin-right: 0;
+    margin-left: 0;
+  }
 
-//   .navigation__item {
-//     width: 100%;
-//     margin: 0 0 0.4em 0;
-//   }
-// }
-// @media all and (max-width: 340px) {
-//   .panel-main__inner {
-//     padding: 0 5%;
-//   }
+  .navigation__item {
+    width: 100%;
+    margin: 0 0 0.4em 0;
+  }
+}
+@media all and (max-width: 340px) {
+  .panel-main__inner {
+    padding: 0 5%;
+  }
 
-//   .panel-title {
-//     margin-bottom: 0.1em;
-//     font-size: 1.5em;
-//   }
+  .panel-title {
+    margin-bottom: 0.1em;
+    font-size: 1.5em;
+  }
 
-//   .panel-subtitle {
-//     font-size: 0.9em;
-//   }
+  .panel-subtitle {
+    font-size: 0.9em;
+  }
 
-//   .btn,
-//   .navigation__item a {
-//     display: block;
-//     margin-bottom: 0.4em;
-//   }
+  .btn,
+  .navigation__item a {
+    display: block;
+    margin-bottom: 0.4em;
+  }
 }
 
 #navbar {
