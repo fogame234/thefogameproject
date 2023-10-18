@@ -1154,11 +1154,11 @@ input[type="tel"]:-ms-input-placeholder {
     display: block;
   }
 
-  // .panel-main {
-  //   display: table;
-  //   position: relative;
-  //   text-align: center
-  // }
+  .panel-main {
+    display: table;
+    position: relative;
+    text-align: center
+  }
 
   .panel-cover--collapsed {
     width: 100%;

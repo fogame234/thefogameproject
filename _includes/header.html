@@ -20,18 +20,20 @@
         <p class="panel-cover__description">{{ site.description }}</p>
         <hr class="panel-cover__divider panel-cover__divider--secondary">
 
+        <nav id="social-links" class="cover-navigation navigation--social">
+          <ul class="navigation">
+            
+            <!-- Generate social links -->
+            {% for social in site.socials %}
+              {% assign link =  social[0] %}
+              {% include socials/{{ link }}.html %}
+            {% endfor %}
+          </ul>
+        </nav>
+
         <div id="navbar" class="navigation-wrapper hidden">
 
-          <nav id="social-links" class="cover-navigation navigation--social">
-            <ul class="navigation">
-              
-              <!-- Generate social links -->
-              {% for social in site.socials %}
-                {% assign link =  social[0] %}
-                {% include socials/{{ link }}.html %}
-              {% endfor %}
-            </ul>
-          </nav><br>
+         <br>
           
           <nav id="projects-toggle" class="cover-navigation cover-navigation--primary hidden">
             <ul class="navigation">
