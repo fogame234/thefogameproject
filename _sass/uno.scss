@@ -1201,7 +1201,7 @@ input[type="tel"]:-ms-input-placeholder {
     border-width: 2px;
   }
   .panel-cover.panel-cover--collapsed .panel-cover__description {
-    display: block; //change
+    display: none;
   }
   .panel-cover.panel-cover--collapsed .panel-cover__divider {
     display: none;
@@ -1224,14 +1224,14 @@ input[type="tel"]:-ms-input-placeholder {
   }
 
   .cover-navigation {
-    display: none; //change
+    display: block;
     position: relative;
     float: left;
     clear: left;
     width: 100%;
   }
   .cover-navigation .navigation {
-    display: none; //change
+    display: block;
     width: 100%;
   }
   .cover-navigation .navigation li {
