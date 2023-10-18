@@ -1220,11 +1220,11 @@ input[type="tel"]:-ms-input-placeholder {
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   }
   .navigation-wrapper.visible {
-    display: none; //changed
+    display: block;
   }
 
   .cover-navigation {
-    display: block;
+    display: none; //changed
     position: relative;
     float: left;
     clear: left;
