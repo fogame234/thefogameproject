@@ -1220,7 +1220,7 @@ input[type="tel"]:-ms-input-placeholder {
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   }
   .navigation-wrapper.visible {
-    display: block;
+    display: none; //changed
   }
 
   .cover-navigation {
@@ -1240,7 +1240,6 @@ input[type="tel"]:-ms-input-placeholder {
   }
   .cover-navigation.navigation--social {
     padding-top: 5px;
-    display: block; //changed
   }
   .cover-navigation.navigation--social .navigation li {
     display: none; //changed
