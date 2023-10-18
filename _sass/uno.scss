@@ -1165,16 +1165,16 @@ input[type="tel"]:-ms-input-placeholder {
     max-width: none;
   }
 
-  // .panel-main__inner {
-  //   display: table-cell;
-  //   padding: 60px 10%;
-  // }
+  .panel-main__inner {
+    display: table-cell;
+    padding: 60px 10%;
+  }
 
-  // .panel-cover__description {
-  //   display: block;
-  //   max-width: 600px;
-  //   margin: 0 auto;
-  // }
+  .panel-cover__description {
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+  }
 
   // .panel-cover__divider--secondary {
   //   display: none;
