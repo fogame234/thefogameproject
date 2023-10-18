@@ -932,7 +932,7 @@ nav {
   padding: 6px 8px 6px 9px;
 }
 .navigation--social a .label {
-  display: none;
+  display: block;
 }
 .navigation--social a .icon {
   display: block;
@@ -1242,7 +1242,7 @@ input[type="tel"]:-ms-input-placeholder {
     padding-top: 5px;
   }
   .cover-navigation.navigation--social .navigation li {
-    display: block;
+    display: none;
     width: 25.8%;
   }
 
