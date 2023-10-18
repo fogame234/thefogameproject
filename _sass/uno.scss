@@ -1224,14 +1224,14 @@ input[type="tel"]:-ms-input-placeholder {
   }
 
   .cover-navigation {
-    display: none; //changed
+    display: block;
     position: relative;
     float: left;
     clear: left;
     width: 100%;
   }
   .cover-navigation .navigation {
-    display: block;
+    display: none; //changed
     width: 100%;
   }
   .cover-navigation .navigation li {
