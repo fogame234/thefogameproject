@@ -16,7 +16,7 @@
 ### ToDos/Planned Features
 
 * Mobile viewing enhancements
-* Move social icons out of menu to below description
+* Move social icons out of menu to below description on mobile
 
 ### Copyright and license
 
