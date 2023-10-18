@@ -1219,9 +1219,9 @@ input[type="tel"]:-ms-input-placeholder {
     background: rgba(51, 51, 51, 0.98);
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   }
-  .navigation-wrapper.visible {
-    display: block;
-  }
+  // .navigation-wrapper.visible {
+  //   display: block;
+  // }
 
   .cover-navigation {
     display: block;
@@ -1237,7 +1237,6 @@ input[type="tel"]:-ms-input-placeholder {
   .cover-navigation .navigation li {
     width: 80%;
     margin-bottom: 0.4em;
-    display: block; //add
   }
   .cover-navigation.navigation--social {
     padding-top: 5px;
