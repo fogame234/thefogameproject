@@ -1171,13 +1171,13 @@ input[type="tel"]:-ms-input-placeholder {
   }
 
   .panel-cover__description {
-    display: none; //changed
+    display: block;
     max-width: 600px;
     margin: 0 auto;
   }
 
   .panel-cover__divider--secondary {
-    display: none;
+    display: block;
   }
 
   .panel-cover {
