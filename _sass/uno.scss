@@ -1177,7 +1177,7 @@ input[type="tel"]:-ms-input-placeholder {
   }
 
   .panel-cover__divider--secondary {
-    display: block;
+    display: none;
   }
 
   .panel-cover {
@@ -1186,7 +1186,7 @@ input[type="tel"]:-ms-input-placeholder {
     background-position: center center;
   }
   .panel-cover.panel-cover--collapsed {
-    display: block;
+    display: none; //changed
     position: relative;
     height: auto;
     padding: 0;
