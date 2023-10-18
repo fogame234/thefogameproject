@@ -65,7 +65,7 @@ $(document).ready(function () {
 
     $('#btn-mobile-menu').click(function () {
         $('.navigation-wrapper').toggleClass('visible')
-        $('#btn-mobile-menu').toggleClass('show')
+        $('#btn-mobile-menu').toggleClass('hidden')
         $('#btn-mobile-close').toggleClass('hidden')
     })
 
