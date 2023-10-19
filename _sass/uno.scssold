@@ -1150,6 +1150,9 @@ input[type="tel"]:-ms-input-placeholder {
   }
 }
 @media all and (max-width: 960px) {
+  .btn-mobile-menu {
+    display: block;
+  }
 
   .panel-main {
     display: table;
@@ -1173,9 +1176,9 @@ input[type="tel"]:-ms-input-placeholder {
     margin: 0 auto;
   }
 
-  .panel-cover__divider--secondary {
-    display: none;
-  }
+  // .panel-cover__divider--secondary {
+  //   display: none;
+  // }
 
   .panel-cover {
     width: 100%;
@@ -1205,33 +1208,61 @@ input[type="tel"]:-ms-input-placeholder {
     margin: 1em auto;
   }
 
-  .cover-navigation {
-    display: block;
-    position: relative;
-    float: left;
-    clear: left;
-    width: 100%;
-  }
-  .cover-navigation .navigation {
-    display: block;
-    width: 100%;
-  }
-  .cover-navigation.navigation--social {
-    padding-top: 5px;
-  }
 
-  .content-wrapper {
-    width: 90%;
-    max-width: none;
-    margin: 0 auto;
-  }
+  // .navigation-wrapper {
+  //   display: none;
+  //   position: fixed;
+  //   top: 42px;
+  //   right: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   padding: 20px 0;
+  //   background: rgba(51, 51, 51, 0.98);
+  //   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  // }
+  // .navigation-wrapper.visible {
+  //   display: block;
+  // }
 
-  .content-wrapper__inner {
-    margin-right: 0;
-    margin-left: 0;
-  }
+  // .cover-navigation {
+  //   display: block;
+  //   position: relative;
+  //   float: left;
+  //   clear: left;
+  //   width: 100%;
+  // }
+  // .cover-navigation .navigation {
+  //   display: block;
+  //   width: 100%;
+  // }
+  // .cover-navigation .navigation li {
+  //   width: 80%;
+  //   margin-bottom: 0.4em;
+  // }
+  // .cover-navigation.navigation--social {
+  //   padding-top: 5px;
+  // }
+  // .cover-navigation.navigation--social .navigation li {
+  //   display: none; //changed
+  //   width: 25.8%;
+  // }
+
+  // .content-wrapper {
+  //   width: 80%;
+  //   max-width: none;
+  //   margin: 0 auto;
+  // }
+
+  // .content-wrapper__inner {
+  //   margin-right: 0;
+  //   margin-left: 0;
+  // }
+
+  // .navigation__item {
+  //   width: 100%;
+  //   margin: 0 0 0.4em 0;
+  // }
 }
-
 @media all and (max-width: 340px) {
   .panel-main__inner {
     padding: 0 5%;
