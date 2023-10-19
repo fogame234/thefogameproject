@@ -1,8 +1,6 @@
 # Site settings
-title: Trevor Davis
-description: | 
-  Username: Fogame | Signal: 801-709-0728 <br>
-  Email: fogame@thefogameproject.dev
+title: Fogame
+description: 'Signal: 801-709-0728 | Email: fogame@thefogameproject.dev'
 url: 'https://thefogameproject.dev'
 baseurl: ''
 font_awesome: '57918ba98d.js'
