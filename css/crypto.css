@@ -1,0 +1,57 @@
+/* crypto.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #555555; /* medium gray background */
+    color: #ffffff; /* white text */
+    padding: 20px;
+    text-align: center; /* center align all content */
+}
+
+.crypto-container {
+    display: flex;
+    justify-content: space-around; /* evenly space items horizontally */
+    flex-wrap: wrap; /* allow items to wrap to the next line */
+    max-width: 1200px; /* maximum width of the container */
+    width: 100%; /* full width of the container */
+}
+
+.crypto {
+    margin-bottom: 40px; /* space between items */
+    display: inline-block; /* display as inline block */
+    width: 30%; /* adjust width as needed */
+    vertical-align: top; /* align to the top */
+    text-align: left; /* align text to the left within each box */
+    margin-right: 5%; /* add some space between items */
+    padding: 20px; /* add padding inside the crypto box */
+    background-color: #333333; /* darker gray background for crypto box */
+    border-radius: 8px; /* rounded corners */
+    overflow: hidden; /* hide overflow content */
+}
+
+.crypto h2 {
+    margin-bottom: 10px; /* space between heading and paragraph text */
+    white-space: normal; /* allow text to wrap */
+}
+
+.crypto p {
+    white-space: normal; /* allow text to wrap */
+    line-height: 1.6; /* adjust line height for readability */
+    word-wrap: break-word;
+}
+
+.crypto img {
+    max-width: 100%; /* ensure image doesn't exceed container width */
+    height: auto; /* maintain aspect ratio */
+    max-height: 200px; /* limit maximum height if necessary */
+    display: block; /* ensures images are fully responsive */
+    margin: 0 auto 10px; /* center images horizontally with space below */
+}
+
+@media screen and (max-width: 768px) {
+    .crypto {
+        width: 100%; /* full width on smaller screens */
+        margin-right: 0; /* remove right margin */
+    }
+}
