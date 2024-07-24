@@ -51,7 +51,7 @@ body {
 
 @media screen and (max-width: 768px) {
     .crypto {
-        width: calc(100% - 40px); /* full width with some margin on each side */
+        width: calc(100% - 100px); /* full width with some margin on each side */
         margin-bottom: 20px; /* space between items */
     }
 }
