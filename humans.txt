@@ -5,7 +5,7 @@ exclude: 'yes'
 ---
 
 /* TEAM */
-Developer & Designer: Trevor Davis
+Developer & Designer: Fogame
 Twitter: @fogame234
 Site: https://thefogameproject.dev
 

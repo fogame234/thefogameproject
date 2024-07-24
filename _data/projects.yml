@@ -2,12 +2,16 @@
   #link: optional
   #img: https://rubyfi.de/images/projects/bite.png
   desc: |
-    This is a test. <br><br>
-    This is a new paragraph in the About Me section.
+    The about me section
 
 - name: PGP
   #link: optional
   #img: https://rubyfi.de/images/projects/bite.png
   desc: |
-    This is a test. <br><br>
-    This is a new paragraph in the About Me section.
+    PGP key
+
+- name: Crypto  
+  #link: optional
+  #img: https://rubyfi.de/images/projects/bite.png
+  desc: |
+    Crypto addresses
