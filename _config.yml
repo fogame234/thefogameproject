@@ -1,6 +1,6 @@
 # Site settings
-title: Fogame
-description: 'Signal: @fogame.48 | Email: fogame@thefogameproject.dev'
+title: Trevor D.
+description: 'Signal: @fogame.48 | Email: Trevor@thefogameproject.dev'
 url: 'https://thefogameproject.dev'
 baseurl: ''
 font_awesome: '57918ba98d.js'
@@ -9,7 +9,7 @@ font_awesome: '57918ba98d.js'
 # disable_landing_page: true
 
 author:
-  name: 'Fogame'
+  name: 'Trevor D.'
 
 # The order of the social links is defined by their order in this list
 socials:
