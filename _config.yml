@@ -1,6 +1,6 @@
 # Site settings
 title: Trevor D.
-description: 'Signal: @fogame.48 | Email: Trevor@thefogameproject.dev ' 
+description: 'Signal: @fogame2.34 | Email: Trevor@thefogameproject.dev ' 
 url: 'https://thefogameproject.dev'
 baseurl: ''
 font_awesome: '57918ba98d.js'
@@ -16,7 +16,7 @@ socials:
   github:
     user_id: fogame234
   #mastodon:
-  #  user_id: '@fogame'
+  #  user_id: 'fogame@mastadon.social'
   #twitter: 
   #  user_id: fogame234
   reddit:
