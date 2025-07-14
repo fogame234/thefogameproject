@@ -4,9 +4,7 @@ description: 'Email: Trevor@thefogameproject.dev '
 url: 'https://thefogameproject.dev'
 baseurl: ''
 font_awesome: '57918ba98d.js'
-# google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
-# disable_landing_page: true
+
 
 author:
   name: 'Trevor D.'
@@ -15,14 +13,6 @@ author:
 socials:
   github:
     user_id: fogame234
-  #mastodon:
-  #  user_id: 'fogame@mastadon.social'
-  #twitter: 
-  #  user_id: fogame234
-  #reddit:
-  #  user_id: fogame
-  #telegram:
-  #  user_id: fogame234
 
   
 

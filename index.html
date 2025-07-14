@@ -40,13 +40,31 @@ robots: noindex
     <li>
         <div class="timeline-body">
             <H3>Current ongoing projects</H3>
-                <p>OSINT Reconnaissance Tools
-
-                    I am currently developing advanced OSINT reconnaissance tools for communication platforms like IRC, Telegram, and Discord, leveraging Python to automate data collection and analysis. In addition to monitoring these platforms, I am also scraping known forums for valuable threat intelligence. By aggregating and analyzing this data, I am able to build detailed threat actor profiles, track emerging threats, and identify potential vulnerabilities. This proactive approach enables me to detect early indicators of malicious activity and provide actionable defense solutions for enhanced cybersecurity.
-                    <br><br>
-
-                    URL to repository: In process of being created
-                </p>
+                <p>Threat Intelligence Bot for Discord:  <a href="https://github.com/fogame234/Threatintelligencefeed" target="_blank">GitHub Repository</a>
+                A custom bot designed to automate threat intelligence gathering and monitoring on Discord servers. It collects OSINT data, analyzes suspicious activities, 
+                and provides real-time alerts to help secure communication channels against emerging threats. As of right now it pulls in RSS feeds for both private/government sectors and recent ransomware attacks.
+            <br><br>
+                <h4>Current customizations include:</h4>
+                <ul>
+                    <li>RSS Feed Monitoring: Tracks cybersecurity news from multiple sources</li>
+                    <li>Multiple Categories: Organizes feeds into categories (private sector, government, ransomware)</li>
+                    <li>Country Tracking: Identifies the country of origin for each feed</li>  
+                    <li>Adaptive Rate Limiting: Prevents Discord API rate limit issues</li>
+                    <li>Paragraph Preservation: Maintains proper formatting of articles</li>
+                    <li>Modular Architecture: Easily extendable with new modules</li>
+                    <li>Configurable Webhooks: Send different categories to different Discord channels</li>
+                </ul>
+            <br><br>
+                <h4>Planned features include:</h4>
+                <ul>
+                    <li>Telegram monitoring</li>
+                    <li>IRC monitoring</li>
+                    <li>Website tracking and monitoring</li>
+                    <li>Darkweb and clearnet forum scraping</li>
+                    <li>Automated threat intelligence reports</li>
+                    <li>CVE tracking and notifications</li>
+                </ul>
+            </p>
             </div>
     </li>
 </ul>
