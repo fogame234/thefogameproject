@@ -36,7 +36,7 @@ $(document).ready(function () {
                 $('.content-wrapper').addClass('animated slideInRight');
             } else {
                 $('.panel-cover').css('max-width', currentWidth);
-                $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, 'swing', function () {});
+                $('.panel-cover').animate({'max-width': '1000px', 'width': '40%'}, 400, 'swing', function () {});
                 $('#navbar').animate({'width': $('#projects-toggle').width()}, 400, 'swing', function () {});
             }
             $('.content-wrapper').addClass('showing');
