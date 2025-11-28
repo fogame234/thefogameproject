@@ -8,7 +8,7 @@ $(document).ready(function () {
     const powerUps = [56,56,50,50,52,54,52,54,98,97];
     var powerUpProgression = [...powerUps];
     $('#navbar').removeClass('hidden');
-    $('#projects-toggle').removeClass('hidden');
+    $('#about-toggle').removeClass('hidden');
     $('#mobile-bar').removeClass('hidden');
     $('#js-hint').addClass('hidden');
 
@@ -37,14 +37,14 @@ $(document).ready(function () {
             } else {
                 $('.panel-cover').css('max-width', currentWidth);
                 $('.panel-cover').animate({'max-width': '1000px', 'width': '40%'}, 400, 'swing', function () {});
-                $('#navbar').animate({'width': $('#projects-toggle').width()}, 400, 'swing', function () {});
+                $('#navbar').animate({'width': $('#about-toggle').width()}, 400, 'swing', function () {});
             }
             $('.content-wrapper').addClass('showing');
         }
     }
     
-    $('#projects-button').click(function(e) {
-        togglePanel('#projects-button', '#projects-panel', '#now-panel', '#ctf-panel', '#pgp-panel');
+    $('#about-button').click(function(e) {
+        togglePanel('#about-button', '#about-panel', '#now-panel', '#ctf-panel', '#pgp-panel');
 
         if ($(window).width() < 768) {  // Checking if it is a mobile device based on the width
             $('#pgp-panel p').hide();  // Hiding the text
@@ -54,8 +54,18 @@ $(document).ready(function () {
     });
     
     $('#now-button').click(function(e) {
-        togglePanel('#now-button', '#now-panel', '#projects-panel', '#ctf-panel', '#pgp-panel');
+        togglePanel('#now-button', '#now-panel', '#about-panel', '#ctf-panel', '#pgp-panel');
 
+        if ($(window).width() < 768) {  // Checking if it is a mobile device based on the width
+            $('#pgp-panel p').hide();  // Hiding the text
+        } else {
+            $('#pgp-panel p').show();  // Showing the text on non-mobile devices
+        }
+    });
+
+    $('#pgp-button').click(function(e) {
+        togglePanel('#pgp-button', '#pgp-panel', '#about-panel', '#ctf-panel', '#now-panel');
+        
         if ($(window).width() < 768) {  // Checking if it is a mobile device based on the width
             $('#pgp-panel p').hide();  // Hiding the text
         } else {
@@ -64,24 +74,15 @@ $(document).ready(function () {
     });
 
     $('#ctf-button').click(function(e) {
-        togglePanel('#ctf-button', '#ctf-panel', '#projects-panel', '#now-panel', '#pgp-panel');
-        
-        if ($(window).width() < 768) {  // Checking if it is a mobile device based on the width
-            $('#pgp-panel p').hide();  // Hiding the text
-        } else {
-            $('#pgp-panel p').show();  // Showing the text on non-mobile devices
-        }
+    togglePanel('#ctf-button', '#ctf-panel', '#about-panel', '#now-panel', '#pgp-panel');
+    
+    if ($(window).width() < 768) {  // Checking if it is a mobile device based on the width
+        $('#pgp-panel p').hide();  // Hiding the text
+    } else {
+        $('#pgp-panel p').show();  // Showing the text on non-mobile devices
+    }
     });
     
-    $('#pgp-button').click(function(e) {
-        togglePanel('#pgp-button', '#pgp-panel', '#projects-panel', '#ctf-panel', '#now-panel');
-        
-        if ($(window).width() < 768) {  // Checking if it is a mobile device based on the width
-            $('#pgp-panel p').hide();  // Hiding the text
-        } else {
-            $('#pgp-panel p').show();  // Showing the text on non-mobile devices
-        }
-    });
     
     
 
