@@ -55,7 +55,6 @@ $(document).ready(function () {
         togglePanel('#ctf-button', '#ctf-panel', '#projects-panel', '#now-panel', '#pgp-panel');
     });
     
-    
     $('#pgp-button').click(function(e) {
         togglePanel('#pgp-button', '#pgp-panel', '#projects-panel', '#ctf-panel', '#now-panel');
         
