@@ -44,15 +44,20 @@ $(document).ready(function () {
     }
     
     $('#projects-button').click(function(e) {
-        togglePanel('#projects-button', '#projects-panel', '#now-panel', '#pgp-panel');
+        togglePanel('#projects-button', '#projects-panel', '#now-panel', '#ctf-panel', '#pgp-panel');
     });
     
     $('#now-button').click(function(e) {
-        togglePanel('#now-button', '#now-panel', '#projects-panel', '#pgp-panel');
+        togglePanel('#now-button', '#now-panel', '#projects-panel', '#ctf-panel', '#pgp-panel');
+    });
+
+    $('#ctf-button').click(function(e) {
+        togglePanel('#ctf-button', '#ctf-panel', '#projects-panel', '#now-panel', '#pgp-panel');
     });
     
+    
     $('#pgp-button').click(function(e) {
-        togglePanel('#pgp-button', '#pgp-panel', '#projects-panel', '#now-panel');
+        togglePanel('#pgp-button', '#pgp-panel', '#projects-panel', '#ctf-panel', '#now-panel');
         
         if ($(window).width() < 768) {  // Checking if it is a mobile device based on the width
             $('#pgp-panel p').hide();  // Hiding the text
