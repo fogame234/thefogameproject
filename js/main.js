@@ -44,7 +44,7 @@ $(document).ready(function () {
     }
     
     $('#projects-button').click(function(e) {
-        togglePanel('#projects-button', '#projects-panel', '#now-panel', '#pgp-panel', '#ctf-panel');
+        togglePanel('#projects-button', '#projects-panel', '#now-panel', '#ctf-panel', '#pgp-panel');
 
         if ($(window).width() < 768) {  // Checking if it is a mobile device based on the width
             $('#pgp-panel p').hide();  // Hiding the text
@@ -54,18 +54,8 @@ $(document).ready(function () {
     });
     
     $('#now-button').click(function(e) {
-        togglePanel('#now-button', '#now-panel', '#projects-panel',  '#pgp-panel', '#ctf-panel');
+        togglePanel('#now-button', '#now-panel', '#projects-panel', '#ctf-panel',  '#pgp-panel');
 
-        if ($(window).width() < 768) {  // Checking if it is a mobile device based on the width
-            $('#pgp-panel p').hide();  // Hiding the text
-        } else {
-            $('#pgp-panel p').show();  // Showing the text on non-mobile devices
-        }
-    });
-
-    $('#pgp-button').click(function(e) {
-        togglePanel('#pgp-button', '#pgp-panel', '#projects-panel', '#now-panel', '#ctf-panel');
-        
         if ($(window).width() < 768) {  // Checking if it is a mobile device based on the width
             $('#pgp-panel p').hide();  // Hiding the text
         } else {
@@ -82,6 +72,17 @@ $(document).ready(function () {
         $('#pgp-panel p').show();  // Showing the text on non-mobile devices
     }
     });
+
+    $('#pgp-button').click(function(e) {
+        togglePanel('#pgp-button', '#pgp-panel', '#projects-panel', '#now-panel', '#ctf-panel');
+        
+        if ($(window).width() < 768) {  // Checking if it is a mobile device based on the width
+            $('#pgp-panel p').hide();  // Hiding the text
+        } else {
+            $('#pgp-panel p').show();  // Showing the text on non-mobile devices
+        }
+    });
+
     
     
     
