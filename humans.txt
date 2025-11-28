@@ -1,12 +1,12 @@
 ---
 layout: null
-sitemap:
+sitemap: 
 exclude: 'yes'
 ---
 
 /* TEAM */
 Developer & Designer: Fogame
-Twitter: @fogame234
+
 Site: https://thefogameproject.dev
 
 /* SITE */
