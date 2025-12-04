@@ -1,0 +1,31 @@
+{% include header.html %}
+    <div class="wrapper">
+      <div class="content">
+        <div class="container container-center">
+          <div class="row">
+            <div class="col-md-8 offset-md-1">
+              <div class="article">
+                <div class="card">
+                  <h1 class="heading-color">{{ page.title }}</h1>
+                  <div class="post-meta">
+                  </div>
+                  <div class="post-content">
+                    {% if page.toc %}
+                      {% include toc.html html=content class='toc' %}
+                    {% endif %}
+                    {{ content }}
+                    {% include share.html %}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 hidden-xs">
+              {% include sidebar.html %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% include footer.html %}
+    </div>
+  </body>
+</html>

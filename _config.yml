@@ -45,3 +45,6 @@ kramdown:
 
 #plugins: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png', 'docker-compose.yml', 'socials/', 'node_modules', 'vendor/bundle/', 'vendor/cache/', 'vendor/gems/', 'vendor/ruby/']
+# In main site's _config.yml
+include:
+  - ctf/_site  # Include the CTF site's _site content into the main site's build
